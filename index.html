@@ -5,13 +5,18 @@
     <meta charset="UTF-8">
     <title>Gastero</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="node_modules/keen-ui/dist/keen-ui.css">
+    <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
+
 </head>
 
 <body>
+    <ui-button>{{msg}}</ui-button>
+    <h4>Novo Gasto</h4>
+    <ui-textbox name="gasto-nome" label="Gastou com o que?" placeholder="Ex: Banana" type="text" :value.sync="msg"></ui-textbox>
+
     <script src="node_modules/vue/dist/vue.js"></script>
     <script src="node_modules/vue-resource/dist/vue-resource.js"></script>
-    <script src="node_modules/keen-ui/dist/keen-ui.js"></script>
+    <script src="/node_modules/material-design-lite/material.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 
