@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Rovaron/gastero",
   "dependencies": {
-    "vue": "^1.0.26"
+    "font-awesome": "^4.6.3",
+    "vue": "^1.0.26",
+    "vue-resource": "^0.9.3"
   }
 }
