@@ -71,7 +71,7 @@
                                 <tbody>
                                     <tr v-for="gasto in gastos">
                                         <td class="mdl-data-table__cell--non-numeric">{{gasto.nome}}</td>
-                                        <td>{{gasto.valor}}</td>
+                                        <td>R$ {{gasto.valor.toFixed(2)}}</td>
                                         <td>
                                             <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--accent" @click="removeGasto(gasto)">
                                                 <i class="material-icons">delete</i>
