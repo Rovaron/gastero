@@ -1,18 +1,3 @@
-# gastero
-
-> Gerenciamento de gastos e ganhos
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+#Gerenciamento de gastos e ganhos
+##Progressive Web App para gerenciamento de gastos e ganhos
+Webapp sem **propósito** real, apenas para **aprendizado** de Vue.js e PWA.
